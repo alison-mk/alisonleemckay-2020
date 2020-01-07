@@ -1,124 +1,117 @@
 html {
-	border-top:  5px solid black;
-	border-bottom:  5px solid black;
-	/* background:  #fff0f1; */
-	background:  #fff7f8;
-	box-sizing:  border-box;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  /* background:  #fff0f1; */
+  background: #fff7f8;
+  box-sizing: border-box;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: 'Abhaya Libre', serif;
-	line-height: 1.4;
-	max-width: 700px;
-	margin:  0 auto;
+  font-family: "Abhaya Libre", serif;
+  line-height: 1.4;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 section {
-	border-bottom:  3px solid black;
-	padding:  30px 0;	
+  border-bottom: 3px solid black;
+  padding: 30px 0;
 }
 
 h1, h2, h3 {
-	font-weight:  700;
+  font-weight: 700;
 }
 
 h2 {
-	text-transform: uppercase;
-	border-bottom:  2px solid black;
-	display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  display: inline-block;
 }
 
 p:last-child {
-	margin-bottom:  0;
+  margin-bottom: 0;
 }
 
 .grid {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row wrap; /* Safari 7.0+ */
-	flex-flow: row wrap;
-	-webkit-justify-content: flex-start; /* Safari 7.0+ */
-	justify-content: flex-start;
-	-webkit-align-items: flex-start; /* Safari 7.0+ */
-	align-items: flex-start;
-	height: 100%; 	
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  /* Safari 7.0+ */
+  flex-flow: row wrap;
+  -webkit-justify-content: flex-start;
+  /* Safari 7.0+ */
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  /* Safari 7.0+ */
+  align-items: flex-start;
+  height: 100%;
 }
 
 .column {
-	padding:  0 10px;
+  padding: 0 10px;
 }
-
 .column:first-child {
-	margin-left:  -10px;
+  margin-left: -10px;
 }
-
 .column:last-child {
-	margin-right:  -10px;
+  margin-right: -10px;
 }
 
 h1 {
-	font-size:  50px;
-	margin:  0;
+  font-size: 50px;
+  margin: 0;
 }
 
 .about {
-	margin-top:  50px;
+  margin-top: 50px;
 }
-
 .about .image {
-	width:  45%;
+  width: 45%;
 }
-
 .about .text {
-	width:  55%;
+  width: 55%;
 }
-
 .about img {
-	max-width: 300px;
-	width:  100%;
-	border:  3px solid black;
+  max-width: 300px;
+  width: 100%;
+  border: 3px solid black;
 }
 
 .skills .column {
-	width:  33.333%;
+  width: 33.333%;
 }
-
 .skills h3 {
-	margin-bottom:  0;
+  margin-bottom: 0;
 }
 
 .experience .grid {
-	border-bottom:  1px solid black;
-	padding-bottom:  10px;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
 }
-
 .experience .grid:last-child {
-	border-bottom:  0;
+  border-bottom: 0;
 }
-
 .experience .grid .title {
-	width: 30%;
+  width: 30%;
 }
-
 .experience .grid .description {
-	width: 70%;
+  width: 70%;
+}
+.experience .grid h3 {
+  margin-bottom: 0;
+}
+.experience .grid h4 {
+  margin: 0;
+}
+.experience .grid .timeframe {
+  margin-top: 0;
 }
 
-.experience h3 {
-	margin-bottom:  0;
-}
-
-.experience h4 {
-	margin:  0;
-}
-
-.experience .timeframe {
-	margin-top:  0;
-}
+/*# sourceMappingURL=style.css.map */
