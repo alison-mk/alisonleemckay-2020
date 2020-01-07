@@ -1,9 +1,8 @@
 html {
-	border-top:  5px solid black;
-	border-bottom:  5px solid black;
+	// border-top:  5px solid black;
+	// border-bottom:  5px solid black;
 	/* background:  #fff0f1; */
-	background:  #fff7f8;
-	box-sizing:  border-box;
+	background:  black;
 }
 
 * {
@@ -11,13 +10,22 @@ html {
 }
 
 body {
+	background:  #fff7f8;
+	border-top:  5px solid black;
+	border-bottom:  5px solid black;
+	width: 100%;
+	margin: 0 auto;
 	font-family: 'Abhaya Libre', serif;
 	line-height: 1.4;
-	max-width: 700px;
-	margin:  0 auto;
 }
 
-section {
+.content-wrap {
+	max-width: 700px;
+	margin:  0 auto;	
+}
+
+section, 
+header {
 	border-bottom:  3px solid black;
 	padding:  30px 0;	
 }
@@ -34,6 +42,23 @@ h2 {
 
 p:last-child {
 	margin-bottom:  0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style: none;
+		padding: 0 0 0 15px;
+
+		&::before {
+			display: inline-block;
+			width: 15px;
+			margin-left: -15px;
+			content: "\2014";
+		}
+	}
 }
 
 .grid {

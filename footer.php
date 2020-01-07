@@ -1,5 +1,5 @@
 <footer>
-	<h3>Contact</h3>
+	<h2>Contact</h2>
 	<ul>
 		<li class="instagram"><a href="http://instagram.com/alison_mk" target="_blank" title="Instagram">Instagram</a></li>
 		<li><a href="https://github.com/amckayay" target="_blank" title="Github">Github</a></li>
@@ -14,6 +14,6 @@
 
 <!-- <script src="js/lib/jquery-3.3.1.min.js"></script>
 <script src="js/scripts.min.js"></script> -->
-
+</div>
 </body>
 </html>

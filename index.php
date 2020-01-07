@@ -1,17 +1,5 @@
 <?php include('header.php'); ?>
 
-<section class="about">
-	<div class="grid">
-		<div class="column image">
-			<img src="alison-mckay-by-cassandra-croft.jpg">
-		</div>
-		<div class="column text">
-			<h1>Alison McKay</h1>
-			<p>A self-taught front end developer, my first website was an ode to my love for Harry Potter at age 12. Now, I devote my internet skills to building websites that are accessible to people of all abilities and income levels. The possibilities of the internet are beautiful and endless&mdash;but only if everyone can access the content</p>
-		</div>
-	</div>
-</section>
-
 <section class="skills">
 	<h2>Skills</h2>
 	<div class="grid">
