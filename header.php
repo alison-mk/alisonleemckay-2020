@@ -17,6 +17,6 @@
 
 <body class="<?php echo $pageName; ?>">
 
-<header>
+<!-- <header>
 	<h1>Alison McKay</h1>
-</header>
+</header> -->
