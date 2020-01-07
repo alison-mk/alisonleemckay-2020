@@ -1,6 +1,5 @@
 @charset "UTF-8";
 html {
-  /* background:  #fff0f1; */
   background: black;
 }
 
@@ -24,9 +23,14 @@ body {
 }
 
 section,
-header {
+header,
+footer {
   border-bottom: 3px solid black;
   padding: 30px 0;
+}
+
+footer {
+  border-bottom: 0;
 }
 
 h1, h2, h3 {
@@ -35,12 +39,25 @@ h1, h2, h3 {
 
 h2 {
   text-transform: uppercase;
-  border-bottom: 2px solid black;
   display: inline-block;
 }
+h2:first-child {
+  margin-top: 0;
+}
 
+p {
+  margin-top: 20px;
+}
 p:last-child {
   margin-bottom: 0;
+}
+
+a {
+  color: #f43f44;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  text-decoration-line: underline;
 }
 
 ul {
@@ -110,15 +127,39 @@ h1 {
   width: 33.333%;
 }
 .skills h3 {
+  margin-top: 0;
   margin-bottom: 0;
 }
 
+.projects .project {
+  padding-bottom: 10px;
+}
+.projects h3, .projects p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.projects h3 {
+  display: inline-block;
+  margin-right: 5px;
+}
+.projects p {
+  display: inline;
+}
+
+.experience h2 {
+  margin-bottom: 0;
+}
 .experience .grid {
   border-bottom: 1px solid black;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.experience .grid:first-child {
+  padding-top: 0;
 }
 .experience .grid:last-child {
   border-bottom: 0;
+  padding-bottom: 0;
 }
 .experience .grid .title {
   width: 30%;
@@ -134,6 +175,27 @@ h1 {
 }
 .experience .grid .timeframe {
   margin-top: 0;
+}
+
+footer {
+  text-align: center;
+}
+footer li {
+  padding: 0;
+}
+footer li::before {
+  display: none;
+}
+footer .social {
+  text-align: center;
+}
+footer .social li {
+  display: inline-block;
+  padding: 0 10px;
+}
+footer .email {
+  text-align: center;
+  padding: 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
