@@ -1,0 +1,34 @@
+html {
+	border-top:  5px solid black;
+	border-bottom:  5px solid black;
+	/* background:  #fff0f1; */
+	background:  #fff7f8;
+}
+
+body {
+	font-family: 'Abhaya Libre', serif;
+	line-height: 1.4;
+	max-width: 650px;
+	margin:  0 auto;
+}
+
+section {
+	border-bottom:  3px solid black;	
+}
+
+h1, h2, h3 {
+	font-weight:  700;
+}
+
+.about .portrait {
+	max-width: 300px;
+	border:  3px solid black;
+}
+
+.experience h3 {
+	margin-bottom:  0;
+}
+
+.experience .timeframe {
+	margin-top:  0;
+}
