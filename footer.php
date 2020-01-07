@@ -12,8 +12,8 @@
 	<p><em><small>This site is set in Abhaya Libre, a typeface designed by Sol Matas and Pushpanada Ekanayake.</small></em></p>
 </footer>
 
-<!-- <script src="js/lib/jquery-3.3.1.min.js"></script>
-<script src="js/scripts.min.js"></script> -->
+<!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+<script src="js/scripts.js"></script>
 </div>
 </body>
 </html>

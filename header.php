@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="<?php echo $pageName; ?>">
+<body id="body" class="<?php echo $pageName; ?>">
 <div class="content-wrap">
 
 <header class="about">

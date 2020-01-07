@@ -106,4 +106,31 @@
 </section>
 
 
+<div class="dancing-donuts">
+	<div class="top-left">
+		<div class="donut"></div>
+		<iframe src="//media1.popsugar-assets.com/files/thumbor/keJRWDI3GDFm8eChFuK5nsCAazY/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/03/25/773/n/1922283/c63bdc34df461cbe_tumblr_lnq4sbcAFF1qdk5lp/i/DONT-try-home.gif" frameborder="0" scrolling="no" async allowTransparency="true"></iframe>
+	</div>
+	<div class="top-right">
+		<div class="donut"></div>
+		<iframe src="//68.media.tumblr.com/f99b2a0fb41fe99550677920806d3074/tumblr_mzlgg97REa1t5m6pgo1_500.gif" frameborder="0" scrolling="no" async></iframe>
+	</div>
+	<div class="middle-left">
+		<div class="donut"></div>
+		<iframe src="//68.media.tumblr.com/39094fccf0a42c32ddd8e2420dca66c5/tumblr_mzzcgbB2By1qc5i9so1_500.gif" frameBorder="0" scrolling="no" async></iframe>
+	</div>
+	<div class="middle-right">
+		<div class="donut"></div>
+		<iframe src="//s-media-cache-ak0.pinimg.com/originals/3f/5d/16/3f5d16704eca2b57066602b6ed8252bc.gif" frameborder="0" scrolling="no" async></iframe>
+	</div>
+	<div class="bottom-left">
+		<div class="donut"></div>
+		<!-- <iframe src="//giphy.com/embed/l396Ua8mfTtszQlk4?html5=true" frameborder="0" scrolling="no" async></iframe> -->
+	</div>
+	<div class="bottom-right">
+		<div class="donut"></div>
+		<iframe src="//www.hodderscape.co.uk/wp-content/uploads/2015/04/Buffy-Stake-gif.gif" frameborder="0" scrolling="no" async></iframe>
+	</div>
+</div>
+
 <?php include('footer.php'); ?>

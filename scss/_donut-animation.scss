@@ -1,0 +1,305 @@
+/*
+ * Easter egg!
+ *
+ * Creating a donut border that appears when "donut" is typed
+ *
+ */
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.02, 1.02, 1.02);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse2 {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.10, 1.10, 1.10);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes jiggle1{
+  0%{
+    transform:rotate(0deg)
+  }
+  50%{
+    transform:rotate(-3deg)
+  }
+  100%{
+    transform:rotate(5deg)
+  }
+}
+
+@keyframes jiggle2{
+  0%,100%{
+    transform:rotate(5deg)
+  }
+  50%{
+    transform:rotate(-5deg)
+  }
+}
+
+@keyframes jiggle3{
+  0%{
+    transform:rotate(0deg)
+  }
+  50%{
+    transform:rotate(-2deg)
+  }
+  100%{
+    transform:rotate(6deg)
+  }
+}
+
+@keyframes jiggle4{
+  0%,100%{
+    transform:rotate(8deg)
+  }
+  50%{
+    transform:rotate(-8deg)
+  }
+}
+
+.jiggle {
+  animation:jiggle1 .3s linear, jiggle2 .4s linear infinite;
+  animation-delay:0s, .3s;
+}
+
+.jiggle2 {
+  animation:jiggle3 .2s linear, jiggle4 .3s linear infinite;
+  animation-delay:0s, .5s;
+}
+
+.jiggle3 {
+  animation:jiggle1 .3s linear, jiggle4 .4s linear infinite;
+  animation-delay:0s, .1s;
+}
+
+.jiggle4 {
+  animation:jiggle3 .3s linear, jiggle2 .5s linear infinite;
+  animation-delay:0s, .5s;
+}
+
+.pulse {
+  animation-name: pulse;
+  animation-duration: .3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.pulse2 {
+  animation-name: pulse2;
+  animation-duration: .7s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.dancing-donuts {
+  position: relative;
+  opacity: 0;
+  transition: all .5s linear;
+  z-index: 99; // Make sure they sit on top of the sticky header
+
+  .donut {
+    @extend .jiggle;
+    position: fixed;
+    background: url("i/mini-donut-1-blue-icing-green-sprinkles.png") no-repeat;
+    background-size: 75px;
+    height: 0;
+    width: 0;
+    border-radius: 50%;
+    transition: filter .3s ease-out, box-shadow 1s linear, width .5s ease, height .5s ease;
+
+    &:hover,
+    &:focus {
+      // filter: brightness(112%);
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  iframe {
+    position: fixed;
+    width: 0;
+    height: 0;
+    transition: border .1s ease-in, width 1s ease, height .5s ease;
+  }
+
+  .top-left {
+    .donut {
+      @extend .jiggle2;
+      background: url("i/mini-donut-1-blue-icing-white-sprinkles.png") no-repeat;
+      background-size: 75px;
+      top: 10px;
+      left: 10px;
+    }
+
+    iframe {
+      top: 10px;
+      left: 100px;
+    }
+
+    &:hover,
+    &:focus {
+      iframe {
+        width: 500px;
+        height: 225px;
+      }
+    }
+  }
+
+  .top-right {
+    .donut {
+      @extend .pulse;
+      background: url("i/mini-donut-3-pink-icing-white-sprinkles.png") no-repeat;
+      background-size: 75px;
+      top: 10px;
+      right: 10px;
+    }
+
+    iframe {
+      top: 10px;
+      right: 100px;
+    }
+
+    &:hover,
+    &:focus {
+      iframe {
+        width: 499px;
+        height: 281px;
+      }
+    }
+  }
+
+  .middle-left {
+    .donut {
+      background: url("i/mini-donut-5-green-frosting-white-sprinkles.png") no-repeat;
+      background-size: 75px;
+      left: 10px;
+      top: 44%;
+    }
+
+    iframe {
+      top: 35%;
+      left: 100px;
+    }
+
+    &:hover,
+    &:focus {
+      iframe {
+        width: 470px;
+        height: 264px;
+      }
+    }
+  }
+
+  .middle-right {
+    .donut {
+      @extend .jiggle4;
+      background: url("i/mini-donut-1-blue-icing-green-sprinkles.png") no-repeat;
+      background-size: 75px;
+      right: 10px;
+      top: 44%;
+    }
+
+    iframe {
+      top: 30%;
+      right: 100px;
+    }
+
+    &:hover,
+    &:focus {
+      iframe {
+        width: 540px;
+        height: 360px;
+      }
+    }
+  }
+
+  .bottom-left {
+    .donut {
+      @extend .pulse2;
+      background: url("i/mini-donut-7-pink-icing-blue-sprinkles.png") no-repeat;
+      background-size: 75px;
+      bottom: 10px;
+      left: 10px;
+    }
+
+    iframe {
+      bottom: 10px;
+      left: 100px;
+    }
+
+    &:hover,
+    &:focus {
+      iframe {
+        width: 250px;
+        height: 250px;
+      }
+    }
+  }
+
+  .bottom-right {
+    .donut {
+      @extend .jiggle3;
+      background: url("i/mini-donut-7-green-icing-pink-sprinkles.png") no-repeat;
+      background-size: 75px;
+      bottom: 10px;
+      right: 10px;
+    }
+
+    iframe {
+      bottom: 10px;
+      right: 100px;
+    }
+
+    &:hover,
+    &:focus {
+      iframe {
+        width: 500px;
+        height: 280px;
+      }
+    }
+  }
+}
+
+body.donut {
+  .dancing-donuts {
+    opacity: 1;
+
+    .donut {
+      height: 75px;
+      width: 75px;
+      box-shadow: 0 0 50px #fff;
+    }
+  }
+}
+
+// Add iframe box shadow to ONLY webkit browsers, due to strange padding issue in Firefox
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .dancing-donuts {
+    iframe {
+      // box-shadow: 0 0 10px $navy;
+    }
+  }
+}
+

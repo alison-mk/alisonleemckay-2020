@@ -198,4 +198,224 @@ footer .email {
   padding: 10px 0;
 }
 
+/*
+ * Easter egg!
+ *
+ * Creating a donut border that appears when "donut" is typed
+ *
+ */
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.02, 1.02, 1.02);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes pulse2 {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jiggle1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+@keyframes jiggle2 {
+  0%, 100% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+}
+@keyframes jiggle3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(6deg);
+  }
+}
+@keyframes jiggle4 {
+  0%, 100% {
+    transform: rotate(8deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+}
+.jiggle, .dancing-donuts .donut {
+  animation: jiggle1 0.3s linear, jiggle2 0.4s linear infinite;
+  animation-delay: 0s, 0.3s;
+}
+
+.jiggle2, .dancing-donuts .top-left .donut {
+  animation: jiggle3 0.2s linear, jiggle4 0.3s linear infinite;
+  animation-delay: 0s, 0.5s;
+}
+
+.jiggle3, .dancing-donuts .bottom-right .donut {
+  animation: jiggle1 0.3s linear, jiggle4 0.4s linear infinite;
+  animation-delay: 0s, 0.1s;
+}
+
+.jiggle4, .dancing-donuts .middle-right .donut {
+  animation: jiggle3 0.3s linear, jiggle2 0.5s linear infinite;
+  animation-delay: 0s, 0.5s;
+}
+
+.pulse, .dancing-donuts .top-right .donut {
+  animation-name: pulse;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.pulse2, .dancing-donuts .bottom-left .donut {
+  animation-name: pulse2;
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+.dancing-donuts {
+  position: relative;
+  opacity: 0;
+  transition: all 0.5s linear;
+  z-index: 99;
+}
+.dancing-donuts .donut {
+  position: fixed;
+  background: url("i/mini-donut-1-blue-icing-green-sprinkles.png") no-repeat;
+  background-size: 75px;
+  height: 0;
+  width: 0;
+  border-radius: 50%;
+  transition: filter 0.3s ease-out, box-shadow 1s linear, width 0.5s ease, height 0.5s ease;
+}
+.dancing-donuts .donut a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.dancing-donuts iframe {
+  position: fixed;
+  width: 0;
+  height: 0;
+  transition: border 0.1s ease-in, width 1s ease, height 0.5s ease;
+}
+.dancing-donuts .top-left .donut {
+  background: url("i/mini-donut-1-blue-icing-white-sprinkles.png") no-repeat;
+  background-size: 75px;
+  top: 10px;
+  left: 10px;
+}
+.dancing-donuts .top-left iframe {
+  top: 10px;
+  left: 100px;
+}
+.dancing-donuts .top-left:hover iframe, .dancing-donuts .top-left:focus iframe {
+  width: 500px;
+  height: 225px;
+}
+.dancing-donuts .top-right .donut {
+  background: url("i/mini-donut-3-pink-icing-white-sprinkles.png") no-repeat;
+  background-size: 75px;
+  top: 10px;
+  right: 10px;
+}
+.dancing-donuts .top-right iframe {
+  top: 10px;
+  right: 100px;
+}
+.dancing-donuts .top-right:hover iframe, .dancing-donuts .top-right:focus iframe {
+  width: 499px;
+  height: 281px;
+}
+.dancing-donuts .middle-left .donut {
+  background: url("i/mini-donut-5-green-frosting-white-sprinkles.png") no-repeat;
+  background-size: 75px;
+  left: 10px;
+  top: 44%;
+}
+.dancing-donuts .middle-left iframe {
+  top: 35%;
+  left: 100px;
+}
+.dancing-donuts .middle-left:hover iframe, .dancing-donuts .middle-left:focus iframe {
+  width: 470px;
+  height: 264px;
+}
+.dancing-donuts .middle-right .donut {
+  background: url("i/mini-donut-1-blue-icing-green-sprinkles.png") no-repeat;
+  background-size: 75px;
+  right: 10px;
+  top: 44%;
+}
+.dancing-donuts .middle-right iframe {
+  top: 30%;
+  right: 100px;
+}
+.dancing-donuts .middle-right:hover iframe, .dancing-donuts .middle-right:focus iframe {
+  width: 540px;
+  height: 360px;
+}
+.dancing-donuts .bottom-left .donut {
+  background: url("i/mini-donut-7-pink-icing-blue-sprinkles.png") no-repeat;
+  background-size: 75px;
+  bottom: 10px;
+  left: 10px;
+}
+.dancing-donuts .bottom-left iframe {
+  bottom: 10px;
+  left: 100px;
+}
+.dancing-donuts .bottom-left:hover iframe, .dancing-donuts .bottom-left:focus iframe {
+  width: 250px;
+  height: 250px;
+}
+.dancing-donuts .bottom-right .donut {
+  background: url("i/mini-donut-7-green-icing-pink-sprinkles.png") no-repeat;
+  background-size: 75px;
+  bottom: 10px;
+  right: 10px;
+}
+.dancing-donuts .bottom-right iframe {
+  bottom: 10px;
+  right: 100px;
+}
+.dancing-donuts .bottom-right:hover iframe, .dancing-donuts .bottom-right:focus iframe {
+  width: 500px;
+  height: 280px;
+}
+
+body.donut .dancing-donuts {
+  opacity: 1;
+}
+body.donut .dancing-donuts .donut {
+  height: 75px;
+  width: 75px;
+  box-shadow: 0 0 50px #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
