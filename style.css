@@ -391,8 +391,8 @@ footer .email {
   left: 100px;
 }
 .dancing-donuts .bottom-left:hover iframe, .dancing-donuts .bottom-left:focus iframe {
-  width: 250px;
-  height: 250px;
+  width: 360px;
+  height: 332px;
 }
 .dancing-donuts .bottom-right .donut {
   background: url("i/mini-donut-7-green-icing-pink-sprinkles.png") no-repeat;

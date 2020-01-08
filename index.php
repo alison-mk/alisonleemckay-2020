@@ -28,6 +28,7 @@
 				<li>Web accessibility compliance</li>
 				<li>Cross-browser + cross-device testing</li>
 				<li>Responsive design and development</li>
+				<li>API integration</li>
 			</ul>
 		</div>
 	</div>
@@ -37,24 +38,24 @@
 	<h2>Projects</h2>
 	<div class="project">
 		<h3><a href="https://wmn-own.biz/" target="_blank">WMN OWN</a></h3>
-		<p>an interactive guide to Seattle-area businesses owned by womxn, a Google Maps integration</p>
+		<p>an interactive guide to Seattle-area businesses owned by womxn; a Google Maps integration</p>
 	</div>
 	<div class="project">
 		<h3><a href="">Alison's Last Donut</a></h3>
-		<p>a statement of my devotion to circular frosted treats, integrated with the Twitter API</p>
+		<p>a statement of my devotion to circular frosted treats; integrated with the Twitter API</p>
 	</div>
 	<div class="project">
 		<h3><a href="https://non-breaking.space/" target="_blank">Non-Breaking Space</a></h3>
-		<p>an art gallery curated by Civilization, a Wordpress website</p>
+		<p>an art gallery curated by Civilization; a Wordpress website</p>
 	</div>
 
 	<div class="project">
 		<h3><a href="https://jlusa.org/" target="_blank">JustLeadershipUSA</a></h3>
-		<p>a cause-based organization focused on reducing incarceration in the United States, a Wordpress website</p>
+		<p>a cause-based organization focused on reducing incarceration in the United States; a Wordpress website</p>
 	</div>
 	<div class="project">
 		<h3><a href="">Lacey Clemmons</a></h3>
-		<p>a copywriting portfolio website, a freelance Wordpress project</p>
+		<p>a copywriting portfolio website; a freelance Wordpress project</p>
 	</div>
 </section>
 
@@ -88,7 +89,7 @@
 			<p class="timeframe"><small>July 2013 — November 2016</small></p>
 		</div>
 		<div class="column description">
-			<p>We built custom responsive Bootstrap-Sass sites (designed in-house) on a proprietary, PHP-based CMS. As a project lead, I was responsible for managing the complete build cycle, assigning tasks to junior developers, code review and mentoring junior dev work, and ensuring deadlines and project estimates were met.</p>
+			<p>We built custom responsive Bootstrap-Sass sites on a proprietary, PHP-based CMS. As a project lead, I was responsible for managing the complete build cycle, assigning tasks to junior developers, code review and mentoring junior dev work, and ensuring deadlines and project estimates were met.</p>
 			<p>Skills and frameworks: Bootstrap + Sass. PHP-based system and CMS. Database management. Git. Photoshop.</p>
 		</div>
 	</div>
@@ -109,27 +110,27 @@
 <div class="dancing-donuts">
 	<div class="top-left">
 		<div class="donut"></div>
-		<iframe src="//media1.popsugar-assets.com/files/thumbor/keJRWDI3GDFm8eChFuK5nsCAazY/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/03/25/773/n/1922283/c63bdc34df461cbe_tumblr_lnq4sbcAFF1qdk5lp/i/DONT-try-home.gif" frameborder="0" scrolling="no" async allowTransparency="true"></iframe>
+		<iframe src="i/dirty-dancing.gif" frameborder="0" scrolling="no" async allowTransparency="true"></iframe>
 	</div>
 	<div class="top-right">
 		<div class="donut"></div>
-		<iframe src="//68.media.tumblr.com/f99b2a0fb41fe99550677920806d3074/tumblr_mzlgg97REa1t5m6pgo1_500.gif" frameborder="0" scrolling="no" async></iframe>
+		<iframe src="i/sleepy-kitten.gif" frameborder="0" scrolling="no" async></iframe>
 	</div>
 	<div class="middle-left">
 		<div class="donut"></div>
-		<iframe src="//68.media.tumblr.com/39094fccf0a42c32ddd8e2420dca66c5/tumblr_mzzcgbB2By1qc5i9so1_500.gif" frameBorder="0" scrolling="no" async></iframe>
+		<iframe src="i/solange.gif" frameBorder="0" scrolling="no" async></iframe>
 	</div>
 	<div class="middle-right">
 		<div class="donut"></div>
-		<iframe src="//s-media-cache-ak0.pinimg.com/originals/3f/5d/16/3f5d16704eca2b57066602b6ed8252bc.gif" frameborder="0" scrolling="no" async></iframe>
+		<iframe src="i/mulder-scully.gif" frameborder="0" scrolling="no" async></iframe>
 	</div>
 	<div class="bottom-left">
 		<div class="donut"></div>
-		<!-- <iframe src="//giphy.com/embed/l396Ua8mfTtszQlk4?html5=true" frameborder="0" scrolling="no" async></iframe> -->
+		<iframe src="i/happy-pomeranian.gif" frameborder="0" scrolling="no" async></iframe>
 	</div>
 	<div class="bottom-right">
 		<div class="donut"></div>
-		<iframe src="//www.hodderscape.co.uk/wp-content/uploads/2015/04/Buffy-Stake-gif.gif" frameborder="0" scrolling="no" async></iframe>
+		<iframe src="i/buffy.gif" frameborder="0" scrolling="no" async></iframe>
 	</div>
 </div>
 
