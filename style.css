@@ -55,6 +55,10 @@ p:last-child {
 a {
   color: #f43f44;
   text-decoration: none;
+  display: inline-block;
+  padding: 2px 5px 0;
+  margin: 0 -5px;
+  line-height: 1.2;
 }
 a:hover, a:focus {
   color: #fff;
@@ -142,8 +146,8 @@ h1 {
   padding-top: 10px;
   padding-bottom: 30px;
 }
-.experience .grid:first-child,
-.projects .grid:first-child {
+.experience .grid:first-of-type,
+.projects .grid:first-of-type {
   padding-top: 0;
 }
 .experience .grid:last-child,
