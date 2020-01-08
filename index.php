@@ -36,26 +36,39 @@
 
 <section class="projects">
 	<h2>Projects</h2>
-	<div class="project">
-		<h3><a href="https://wmn-own.biz/" target="_blank">WMN OWN</a></h3>
-		<p>an interactive guide to Seattle-area businesses owned by womxn; a Google Maps integration</p>
-	</div>
-	<div class="project">
-		<h3><a href="">Alison's Last Donut</a></h3>
-		<p>a statement of my devotion to circular frosted treats; integrated with the Twitter API</p>
-	</div>
-	<div class="project">
-		<h3><a href="https://non-breaking.space/" target="_blank">Non-Breaking Space</a></h3>
-		<p>an art gallery curated by Civilization; a Wordpress website</p>
-	</div>
-
-	<div class="project">
-		<h3><a href="https://jlusa.org/" target="_blank">JustLeadershipUSA</a></h3>
-		<p>a cause-based organization focused on reducing incarceration in the United States; a Wordpress website</p>
-	</div>
-	<div class="project">
-		<h3><a href="">Lacey Clemmons</a></h3>
-		<p>a copywriting portfolio website; a freelance Wordpress project</p>
+	<div class="grid">
+		<div class="column title">
+			<h3><a href="https://wmn-own.biz/" target="_blank">WMN OWN</a></h3>
+			<p>An interactive guide to Seattle-area businesses owned by womxn; a special project/not for profit.</p>
+			<ul>
+				<li>Google Maps integration</li>
+				<li>a custom Wordpress build</li>
+			</ul>
+		</div>
+		<div class="column title">
+			<h3><a href="">Alison's Last Donut</a></h3>
+			<p>A statement of my devotion to circular frosted treats; just for fun!</p>
+			<ul>
+				<li>integrated with the Twitter API</li>
+			</ul>			
+		</div>
+		<div class="column title">
+			<h3><a href="https://non-breaking.space/" target="_blank">Non-Breaking Space</a></h3>
+			<p>An art gallery curated by Civilization.</p>
+			<ul>
+				<li>a custom Wordpress build</li>
+				<li>responsive design and development</li>
+				<li>web accessibility compliance</li>
+			</ul>
+		</div>
+		<div class="column title">
+			<h3><a href="https://jlusa.org/" target="_blank">JustLeadershipUSA</a></h3>
+			<p>A cause-based organization focused on reducing incarceration in the United States.</p>
+			<ul>
+				<li>a custom Wordpress build</li>
+				<li>responsive design and development</li>
+			</ul>
+		</div>
 	</div>
 </section>
 
@@ -68,7 +81,7 @@
 			<p class="timeframe"><small>December 2012 — Ongoing</small></p>
 		</div>
 		<div class="column description">
-			<p>WordPress. Side projects. All-around fun. Projects include: WMN OWN, an interactive guide to Seattle-area businesses owned by womxn, and Alison's Last Donut, a statement of my devotion to circular frosted treats.</p>	
+			<p>Wordpress. Side projects. All-around fun. Projects includ WMN Own and Alison's Last Donut (mentioned above), and assorted creative portfolio and small business websites.</p>	
 		</div>	
 	</div>
 	<div class="grid">

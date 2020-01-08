@@ -60,7 +60,9 @@ a {
 
 	&:hover, 
 	&:focus {
-		text-decoration-line: underline;
+		// text-decoration-line: underline;
+		color: #fff;
+		background-color: #f43f44;
 	}
 }
 
@@ -142,27 +144,8 @@ h1 {
 	}
 }
 
+.experience, 
 .projects {
-	.project {
-		padding-bottom: 10px; 
-	}
-
-	h3, p {
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-
-	h3 {
-		display: inline-block;
-		margin-right: 5px;
-	}
-
-	p {
-		display: inline; 
-	}
-}
-
-.experience {
 	h2 {
 		margin-bottom: 0;
 	}
@@ -180,7 +163,34 @@ h1 {
 			border-bottom:  0;
 			padding-bottom: 0;
 		}	
+	}
+}
 
+.projects {
+	.grid {
+		border-bottom: 0;
+	}
+
+	.column {
+		width:  50%;
+	}
+
+	h3 {
+		margin-bottom: 0;
+	}
+
+	p {
+		margin: 0;
+		font-style: italic;
+	}
+
+	ul {
+		font-weight: 700; 
+	}
+}
+
+.experience {
+	.grid {
 		.title {
 			width: 30%;
 		}
