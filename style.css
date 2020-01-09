@@ -1,6 +1,8 @@
 @charset "UTF-8";
 html {
   background: black;
+  font-size: 62.5%;
+  /* 10rem reset */
 }
 
 * {
@@ -9,24 +11,25 @@ html {
 
 body {
   background: #fff7f8;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+  border-top: 0.5rem solid black;
+  border-bottom: 0.5rem solid black;
   width: 100%;
   margin: 0 auto;
   font-family: "Abhaya Libre", serif;
+  font-size: 1.6rem;
   line-height: 1.4;
 }
 
 .content-wrap {
-  max-width: 700px;
+  max-width: 70rem;
   margin: 0 auto;
 }
 
 section,
 header,
 footer {
-  border-bottom: 3px solid black;
-  padding: 30px 0;
+  border-bottom: 0.3rem solid black;
+  padding: 3rem 0;
 }
 
 footer {
@@ -45,24 +48,29 @@ h2:first-child {
   margin-top: 0;
 }
 
-p {
-  margin-top: 20px;
-}
-p:last-child {
-  margin-bottom: 0;
-}
-
 a {
   color: #f43f44;
   text-decoration: none;
   display: inline-block;
-  padding: 2px 5px 0;
-  margin: 0 -5px;
-  line-height: 1.2;
+  padding: 0.1rem 0.3rem 0;
+  margin: 0 -0.3rem;
+  line-height: 1.1;
 }
 a:hover, a:focus {
   color: #fff;
   background-color: #f43f44;
+}
+
+p {
+  margin-top: 2rem;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+p a {
+  padding: 0.2rem 0.1rem 0;
+  margin: 0 0 0 -0.1rem;
+  line-height: 1;
 }
 
 ul {
@@ -71,12 +79,12 @@ ul {
 }
 ul li {
   list-style: none;
-  padding: 0 0 0 15px;
+  padding: 0 0 0 1.5rem;
 }
 ul li::before {
   display: inline-block;
-  width: 15px;
-  margin-left: -15px;
+  width: 1.5rem;
+  margin-left: -1.5rem;
   content: "—";
 }
 
@@ -99,37 +107,59 @@ ul li::before {
 }
 
 .column {
-  padding: 0 10px;
+  padding: 0 1rem;
 }
 .column:first-child {
-  margin-left: -10px;
+  margin-left: -1rem;
 }
 .column:last-child {
-  margin-right: -10px;
+  margin-right: -1rem;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 5rem;
   margin: 0;
 }
 
 .about {
-  margin-top: 50px;
+  margin-top: 5rem;
 }
 .about .image {
-  width: 45%;
+  width: 100%;
+}
+@media only screen and (min-width: 769px) {
+  .about .image {
+    width: 45%;
+  }
 }
 .about .text {
-  width: 55%;
+  width: 100%;
+}
+@media only screen and (min-width: 769px) {
+  .about .text {
+    width: 55%;
+  }
 }
 .about img {
-  max-width: 300px;
+  display: block;
+  max-width: 30rem;
   width: 100%;
-  border: 3px solid black;
+  border: 0.3rem solid black;
+  margin: 0 auto;
 }
 
 .skills .column {
-  width: 33.333%;
+  width: 100%;
+}
+@media only screen and (min-width: 450px) {
+  .skills .column {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .skills .column {
+    width: 33.333%;
+  }
 }
 .skills h3 {
   margin-top: 0;
@@ -142,9 +172,9 @@ h1 {
 }
 .experience .grid,
 .projects .grid {
-  border-bottom: 1px solid black;
-  padding-top: 10px;
-  padding-bottom: 30px;
+  border-bottom: 0.1rem solid black;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 .experience .grid:first-of-type,
 .projects .grid:first-of-type {
@@ -160,7 +190,12 @@ h1 {
   border-bottom: 0;
 }
 .projects .column {
-  width: 50%;
+  width: 100%;
+}
+@media only screen and (min-width: 450px) {
+  .projects .column {
+    width: 50%;
+  }
 }
 .projects h3 {
   margin-bottom: 0;
@@ -174,10 +209,20 @@ h1 {
 }
 
 .experience .grid .title {
-  width: 30%;
+  width: 100%;
+}
+@media only screen and (min-width: 450px) {
+  .experience .grid .title {
+    width: 30%;
+  }
 }
 .experience .grid .description {
-  width: 70%;
+  width: 100%;
+}
+@media only screen and (min-width: 450px) {
+  .experience .grid .description {
+    width: 70%;
+  }
 }
 .experience .grid h3 {
   margin-bottom: 0;
@@ -203,11 +248,11 @@ footer .social {
 }
 footer .social li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 1rem;
 }
 footer .email {
   text-align: center;
-  padding: 10px 0;
+  padding: 1rem 0;
 }
 
 /*

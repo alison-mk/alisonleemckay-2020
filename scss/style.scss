@@ -1,2 +1,7 @@
+
+@mixin responsive($minmax, $size, $dimension: width) {
+	@media only screen and (#{$minmax}-#{$dimension}: #{$size}px) { @content; }
+}
+
 @import "base";
 @import "donut-animation";
