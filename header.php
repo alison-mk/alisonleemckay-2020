@@ -9,6 +9,7 @@
     	$pageName = substr(basename($_SERVER['PHP_SELF']), 0, -4);
     	if ($pageName === 'index') $pageName = 'home'; ?>
     <title>Alison McKay | Front End Developer</title>
+    <meta name="description" content="A portfolio website for Alison McKay's front end development skillz.">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="i/favicon.png" type="image/png" />
     <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre:400,700" rel="stylesheet">
