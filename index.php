@@ -115,7 +115,7 @@
 		</div>
 		<div class="column description">
 			<p>Started as a front end development intern and became a go-to for project management, copywriting, and basic front end dev tasks.</p>
-			<p>Skills and frameworks: Photoshop, Git and Subversion, Bootstrap and Foundation.</p>
+			<p>Skills and frameworks: Wordpress. Photoshop. Git and Subversion. Bootstrap and Foundation.</p>
 		</div>
 	</div>
 </section>
