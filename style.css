@@ -21,7 +21,7 @@ body {
 }
 
 .content-wrap {
-  max-width: 70rem;
+  max-width: 75rem;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -132,6 +132,7 @@ h1 {
   font-size: 5rem;
   margin: 1rem 0;
   text-align: center;
+  line-height: 1;
 }
 @media only screen and (min-width: 769px) {
   h1 {

@@ -26,7 +26,8 @@
         </div>
         <div class="column text">
             <h1>Alison McKay</h1>
-            <p>A self-taught front end developer, my first website was an ode to my love for Harry Potter at age 12. Now, I devote my internet skills to building websites that are accessible to people of all abilities and income levels. The possibilities of the internet are beautiful and endless&mdash;but only if everyone can access the content.</p>
+            <p>A professional front end developer for seven years, I have experience freelancing, contracting, and working full-time as part of an agency team. I'm currently based in Oaxaca, Mexico and looking for remote part-time work or freelance projects.</p>
+            <p>I'm detail-oriented, love writing clean code, and am particularly passionate about web accessibility and inclusivity. The possibilities of the internet are beautiful and endless&mdash;but only if everyone can access the content.</p>            
         </div>
     </div>
 </header>
