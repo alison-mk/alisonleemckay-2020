@@ -8,7 +8,11 @@ html {
 }
 
 body {
-	background:  #fff7f8;
+	background-color:  #fff7f8;
+	// background-image: radial-gradient(#fff 20%, transparent 20%),
+	// 	radial-gradient(#fff 20%, transparent 20%);
+	// background-position: 0 0, 1rem 1rem;
+	// background-size: 1rem 1rem;
 	border-top:  0.5rem solid black;
 	border-bottom:  0.5rem solid black;
 	width: 100%;

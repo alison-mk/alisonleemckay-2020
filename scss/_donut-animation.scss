@@ -113,7 +113,7 @@
   position: relative;
   opacity: 0;
   transition: all .5s linear;
-  z-index: 99; // Make sure they sit on top of the sticky header
+  z-index: 99; // make sure they sit on top
 
   .donut {
     @extend .jiggle;
@@ -295,11 +295,11 @@ body.donut {
 }
 
 // Add iframe box shadow to ONLY webkit browsers, due to strange padding issue in Firefox
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  .dancing-donuts {
-    iframe {
-      // box-shadow: 0 0 10px $navy;
-    }
-  }
-}
+// @media screen and (-webkit-min-device-pixel-ratio:0) {
+//   .dancing-donuts {
+//     iframe {
+//       // box-shadow: 0 0 10px $navy;
+//     }
+//   }
+// }
 
