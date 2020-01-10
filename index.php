@@ -46,7 +46,7 @@
 			</ul>
 		</div>
 		<div class="column title">
-			<h3><a href="">Alison's Last Donut</a></h3>
+			<h3><a href="http://donuts.alisonleemckay.com/" target="_blank">Alison's Last Donut</a></h3>
 			<p>A statement of my devotion to circular frosted treats.</p>
 			<ul>
 				<li>integrated with the Twitter API</li>
@@ -82,7 +82,7 @@
 			<p class="timeframe"><small>December 2012 — Ongoing</small></p>
 		</div>
 		<div class="column description">
-			<p>Wordpress. Side projects. All-around fun. Projects includ <a href="">WMN OWN</a>, <a href="http://donuts.alisonleemckay.com/" target="_blank">Alison's Last Donut</a>, and assorted creative portfolio and small business websites.</p>	
+			<p>Wordpress. Side projects. All-around fun. Projects includ <a href="https://wmn-own.biz/" target="_blank">WMN OWN</a>, <a href="http://donuts.alisonleemckay.com/" target="_blank">Alison's Last Donut</a>, and assorted creative portfolio and small business websites.</p>	
 		</div>	
 	</div>
 	<div class="grid">
@@ -124,27 +124,27 @@
 <div class="dancing-donuts">
 	<div class="top-left">
 		<div class="donut"></div>
-		<iframe src="i/dirty-dancing.gif" frameborder="0" scrolling="no" async allowTransparency="true"></iframe>
+		<img src="i/dirty-dancing.gif" alt="final scene from the movie Dirty Dancing">
 	</div>
 	<div class="top-right">
 		<div class="donut"></div>
-		<iframe src="i/sleepy-kitten.gif" frameborder="0" scrolling="no" async></iframe>
+		<img src="i/sleepy-kitten.gif" alt="a kitten falling asleep">
 	</div>
 	<div class="middle-left">
 		<div class="donut"></div>
-		<iframe src="i/solange.gif" frameBorder="0" scrolling="no" async></iframe>
+		<img src="i/solange.gif" alt="clip from a Solange music video">
 	</div>
 	<div class="middle-right">
 		<div class="donut"></div>
-		<iframe src="i/mulder-scully.gif" frameborder="0" scrolling="no" async></iframe>
+		<img src="i/mulder-scully.gif" alt="Mulder and Scully from the X-Files">
 	</div>
 	<div class="bottom-left">
 		<div class="donut"></div>
-		<iframe src="i/happy-pomeranian.gif" frameborder="0" scrolling="no" async></iframe>
+		<img src="i/happy-pomeranian.gif" alt="blow-drying a Pomeranian">
 	</div>
 	<div class="bottom-right">
 		<div class="donut"></div>
-		<iframe src="i/buffy.gif" frameborder="0" scrolling="no" async></iframe>
+		<img src="i/buffy.gif" alt="Buffy Summers spinning a wooden stake">
 	</div>
 </div>
 
