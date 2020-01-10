@@ -21,7 +21,7 @@
 <header class="about">
     <div class="grid">
         <div class="column image">
-            <img src="i/alison-mckay-by-cassandra-croft.jpg">
+            <img src="i/alison-mckay-by-cassandra-croft.jpg" alt="photo of Alison McKay by Cassandra Croft">
         </div>
         <div class="column text">
             <h1>Alison McKay</h1>

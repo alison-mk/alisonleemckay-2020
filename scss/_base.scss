@@ -50,18 +50,18 @@ h2 {
 }
 
 a {
-	color: #f43f44;
+	color: #D10069;
 	text-decoration: none;
 	display: inline-block;
 	padding: 0.1rem 0.3rem 0;
 	margin: 0 -0.3rem;
 	line-height: 1.1;
+	font-weight: 700;
 
 	&:hover, 
 	&:focus {
-		// text-decoration-line: underline;
 		color: #fff;
-		background-color: #f43f44;
+		background-color: #D10069;
 	}
 }
 
@@ -70,12 +70,6 @@ p {
 
 	&:last-child {
 		margin-bottom:  0;
-	}
-
-	a {
-		padding: 0.2rem 0.1rem 0;
-		margin: 0 0 0 -0.1rem;
-		line-height: 1;
 	}
 }
 
@@ -96,6 +90,14 @@ ul {
 	}
 }
 
+p, ul {
+	a {
+		padding: 0.2rem 0.1rem 0;
+		margin: 0 0 0 -0.1rem;
+		line-height: 1;			
+	}
+}
+
 .grid {
 	display: -webkit-box;
 	display: -moz-box;
@@ -108,18 +110,24 @@ ul {
 	justify-content: flex-start;
 	-webkit-align-items: flex-start; /* Safari 7.0+ */
 	align-items: flex-start;
-	height: 100%; 	
+	height: 100%;
+	width: 100%;
+
+	@include responsive(min, 450) {
+		width: calc(100% + 3rem);
+		margin: 0 -1.5rem;
+	}
 }
 
 .column {
-	padding: 0 0 1rem;
+	padding: 0 0 1.5rem;
 
 	&:last-child {
 		padding-bottom: 0;
 	}
 
 	@include responsive(min, 450) {
-		padding:  0 1rem;
+		padding:  0 1.5rem;
 	}
 }
 
@@ -136,24 +144,6 @@ h1 {
 
 .about {
 	margin-top:  5rem;
-
-	.column {
-		@include responsive(min, 450) {
-			margin: 0 -1rem;
-		}
-
-		@include responsive(min, 769) {
-			&:nth-child(odd) {
-				margin-left:  -1rem;
-				margin-right: 0;
-			}
-
-			&:nth-child(even) {
-				margin-left: 0;
-				margin-right:  -1rem;
-			}
-		}		
-	}
 
 	.image {
 		width:  100%;
@@ -197,35 +187,11 @@ h1 {
 
 		@include responsive(min, 450) {
 			width: 50%; 
-			padding: 0 1rem;
-
-			&:nth-child(odd) {
-				margin-left:  -1rem;
-			}
-
-			&:nth-child(even) {
-				margin-right:  -1rem;
-			}
+			padding: 0 1.5rem;
 		}
 
 		@include responsive(min, 769) {
 			width:  33.333%;
-
-			&:nth-child(odd) {
-				margin-left:  0;
-			}
-
-			&:nth-child(even) {
-				margin-right:  0;
-			}
-
-			&:first-child {
-				margin-left:  -1rem;
-			}
-
-			&:last-child {
-				margin-right:  -1rem;
-			}
 		}
 	}
 
@@ -242,7 +208,6 @@ h1 {
 	}
 
 	.grid {
-		border-bottom:  0.1rem solid black;
 		padding-top: 1rem;
 		padding-bottom:  3rem;	
 
@@ -267,14 +232,6 @@ h1 {
 
 		@include responsive(min, 450) {
 			width:  50%;
-
-			&:nth-child(odd) {
-				margin-left:  -1rem;
-			}
-
-			&:nth-child(even) {
-				margin-right:  -1rem;
-			}
 		}
 	}
 
@@ -294,6 +251,27 @@ h1 {
 
 .experience {
 	.grid {
+		position: relative;
+
+		&::after {
+			content: '';
+			width: 100%;
+			height: 0.1rem;
+			display: block;
+			position: absolute;
+			bottom: 0;			
+			background: black;
+
+			@include responsive(min, 450) {
+				width: calc(100% - 3rem);
+				left: 1.5rem;
+			}
+		}
+
+		&:last-child::after {
+			content: none;
+		}
+
 		.title {
 			width: 100%; 
 
@@ -311,17 +289,7 @@ h1 {
 		}
 
 		.column {
-			padding-bottom: 0; 
-
-			@include responsive(min, 450) {
-				&:first-child {
-					margin-left:  -1rem;
-				}
-
-				&:last-child {
-					margin-right:  -1rem;
-				}
-			}
+			padding-bottom: 0;
 		}
 
 		h3 {

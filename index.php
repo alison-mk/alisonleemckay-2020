@@ -47,9 +47,10 @@
 		</div>
 		<div class="column title">
 			<h3><a href="">Alison's Last Donut</a></h3>
-			<p>A statement of my devotion to circular frosted treats; just for fun!</p>
+			<p>A statement of my devotion to circular frosted treats.</p>
 			<ul>
 				<li>integrated with the Twitter API</li>
+				<li>CSS3 animations</li>
 			</ul>			
 		</div>
 		<div class="column title">
@@ -88,7 +89,7 @@
 		<div class="column title">
 			<h3><a href="https://builtbycivilization.com/" target="_blank">Civilization</a></h3> 
 			<h4><em>Front End Developer</em></h4>
-			<p class="timeframe"><small>January 2017 — September 2019</small></p>
+			<p class="timeframe"><small>January 2017 — September&nbsp;2019</small></p>
 		</div>
 		<div class="column description">
 			<p>Civilization is a socially, ethically, and environmentally-minded design studio where I built custom, from-scratch Wordpress websites. I brought web accessibility and user experience inclusivity skills to the team, and I was responsible for deliverables like meeting project deadlines and training clients to use their new CMS & websites.</p>
@@ -99,7 +100,7 @@
 		<div class="column title">
 			<h3><a href="https://www.seattlewebdesign.com/" target="_blank">Efelle Creative</a></h3>
 			<h4><em>Front End Developer, Project Lead</em></h4>
-			<p class="timeframe"><small>July 2013 — November 2016</small></p>
+			<p class="timeframe"><small>July 2013 — November&nbsp;2016</small></p>
 		</div>
 		<div class="column description">
 			<p>We built custom responsive Bootstrap-Sass sites on a proprietary, PHP-based CMS. As a project lead, I was responsible for managing the complete build cycle, assigning tasks to junior developers, code review and mentoring junior dev work, and ensuring deadlines and project estimates were met.</p>
@@ -110,7 +111,7 @@
 		<div class="column title">
 			<h3><a href="https://conflare.com/" target="_blank">Conflare</a></h3>
 			<h4><em>Project Manager, Copywriter, Front End Developer</em></h4>
-			<p class="timeframe"><small>December 2012 — June 2013</small></p>
+			<p class="timeframe"><small>December 2012 — June&nbsp;2013</small></p>
 		</div>
 		<div class="column description">
 			<p>Started as a front end development intern and became a go-to for project management, copywriting, and basic front end dev tasks.</p>
