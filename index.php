@@ -82,7 +82,7 @@
 			<p class="timeframe"><small>December 2012 — Ongoing</small></p>
 		</div>
 		<div class="column description">
-			<p>Wordpress. Side projects. All-around fun. Projects includ <a href="https://wmn-own.biz/" target="_blank">WMN OWN</a>, <a href="http://donuts.alisonleemckay.com/" target="_blank">Alison's Last Donut</a>, and assorted creative portfolio and small business websites.</p>	
+			<p>Wordpress. Side projects. All-around fun. Projects include <a href="https://wmn-own.biz/" target="_blank">WMN OWN</a>, <a href="http://donuts.alisonleemckay.com/" target="_blank">Alison's Last Donut</a>, and assorted creative portfolio and small business websites.</p>	
 		</div>	
 	</div>
 	<div class="grid">
