@@ -321,8 +321,12 @@ footer {
 		text-align: center;
 
 		li {
-			display: inline-block;
+			display: block;
 			padding: 0 1rem;
+
+			@include responsive(min, 450) {
+				display: inline-block;
+			}
 		}
 	}
 
